@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Quicksand:wght@500&display=swap');
+
+:root {
+    --main-bg-color: #1d6ded;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 75px;
+    padding: 0 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 48px;
+}
+
+header nav ul li {
+    list-style: none;
+    font-family: 'ADLaM Display', cursive;
+    padding: 0 23px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul a:hover {
+    font-weight: bolder;
+    color: aqua;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search img {
+    height: 26px;
+    margin: 0px 0px -1px -71px;
+    border: solid 1px black;
+}
+
+.search input {
+    width: 30vw;
+    height: 4vh;
+    border-radius: 2px;
+    margin: 0 71px;
+    padding: 0 12px;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 10vh);
+}
+
+.slider {
+    margin: 12px auto;
+    width: 88vw;
+    overflow: hidden;
+}
+
+.card {
+    margin: auto;
+    width: 91vw;
+    font-family: 'ADLaM Display', cursive;
+}
+
+.cards {
+    display: flex;
+    overflow: scroll;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 22px;
+}
+
+.card h2 {
+    font-family: 'ADLaM Display', cursive;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 10vh;
+    font-family: 'ADLaM Display', cursive;
+}
+
